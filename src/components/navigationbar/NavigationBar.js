@@ -4,7 +4,7 @@ import './NavigationBar.css';
 import profileImage from '../images/sam.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faTwitter, faInstagram, faMailchimp, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 export default function NavigationBar() {
     return (
