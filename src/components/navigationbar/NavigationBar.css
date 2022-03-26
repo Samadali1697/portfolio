@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400&display=swap');
+
+.r1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.r2, .r3, .r4 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.r1 h1 {
+    font-family: 'Aclonica', 'Arial', sans-serif;
+}
+
+.r2 img {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .gmail{
+        font-size:16px;
+        font-weight: normal;
+    }
+}
+.social-card{
+    text-align: center;
+}
+.social-card-icons{
+    margin-bottom: 15px;
+}
+.fa-lg{
+    text-decoration: none;
+    color:red;
+}
