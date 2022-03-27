@@ -2,6 +2,8 @@ import React from "react";
 import "./Home.module.css";
 import style from './Home.module.css';
 import About from "../about/About";
+import Journey from "../journey/Journey";
+import Interest from "../interest/Interest";
 
 export default function Home() {
   return (
@@ -11,11 +13,11 @@ export default function Home() {
             </div>
 
             <div id="interest">
-                <h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1><h1>Hold tight! This is coming soon!</h1>
+                <Interest />
             </div>
 
-            <div id="education">
-                <About />
+            <div id="journey">
+                <Journey />
             </div>
       </div>
   );

@@ -22,7 +22,7 @@ export default function NavigationBar() {
 
             <div className={styles.socialCard}>
                 <div className={styles.r3Items}><Link smooth to="/#about" className={styles.links}>About</Link></div>
-                <div className={styles.r3Items}><Link smooth to="/#education" className={styles.links}>Education</Link></div>
+                <div className={styles.r3Items}><Link smooth to="/#journey" className={styles.links}>Journey</Link></div>
                 <div className={styles.r3Items}><Link smooth to="/#interest" className={styles.links}>Interest</Link></div>
             </div>
 
@@ -36,8 +36,6 @@ export default function NavigationBar() {
                     <div className={styles.socialCardIcons}> <a href="https://www.facebook.com/SyedSamadAliShah" rel="opener noreferrer" target="_blank" className={styles.faLg}><FontAwesomeIcon icon={faFacebook}/></a></div>
                 </div>
             </div>
-
-
         </div>
     );
 }

@@ -10,14 +10,11 @@ export default function About() {
                 <span className={styles.head}>ABOUT ME</span>
                 <h2 className={styles.heading}>Who Am I?</h2>
                 <div className={styles.About}>
-                    <p> I am <b>Samad Ali Shah</b> a FullStack developer, currently working as a full-time Engineer.
-                        I have done my Bachelors in Computer Software Engineering from Institute of Management Sciences, Peshawar Pakistan.
-                        I love playing around with new technologies and problems that enables me to handle problems and challenges with great enthusiasm and serenity. </p>
-                    <p className={styles.br}>In this field, I am
-                        looking forward to a promising technical job where I will be exposed to new developmental areas with a
-                        friendly environment for learning and emerging of my own personality with professional and in time work. </p>
+                    <p> I am <b>Samad Ali Shah</b> a FullStack Software Engineer, currently working full-time Engineer in Berlin, Germany.
+                        I have done my Bachelors in Computer Software Engineering from Institute of Management Sciences, Peshawar Pakistan. </p>
+                    <p className={styles.br}>As a highly motivated computer professional with the enthusiasm to accept challenges, working on new technologies interests me considerably. With hands-on experience using different programming languages to design and implement Android, Web and embedded applications, I am confident that one day I will contribute in making this world a better place in a true sense. </p>
                 </div>
             </ScrollAnimation>
         </div>
-    )
+    );
 }
