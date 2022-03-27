@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './About.module.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.min.css";
+import 'animate.css/animate.min.css';
+import { portfolioData } from '../../data/content';
 
 export default function About() {
     return (
@@ -10,9 +11,8 @@ export default function About() {
                 <span className={styles.head}>ABOUT ME</span>
                 <h2 className={styles.heading}>Who Am I?</h2>
                 <div className={styles.About}>
-                    <p> I am <b>Samad Ali Shah</b> a FullStack Software Engineer, currently working full-time Engineer in Berlin, Germany.
-                        I have done my Bachelors in Computer Software Engineering from Institute of Management Sciences, Peshawar Pakistan. </p>
-                    <p className={styles.br}>As a highly motivated computer professional with the enthusiasm to accept challenges, working on new technologies interests me considerably. With hands-on experience using different programming languages to design and implement Android, Web and embedded applications, I am confident that one day I will contribute in making this world a better place in a true sense. </p>
+                    <p> {portfolioData.about["1"]} </p>
+                    <p className={styles.br}> {portfolioData.about["2"]} </p>
                 </div>
             </ScrollAnimation>
         </div>

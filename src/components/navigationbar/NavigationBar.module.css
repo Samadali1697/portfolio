@@ -17,6 +17,12 @@
     font-family: 'Aclonica', 'Arial', sans-serif;
 }
 
+.r1 p {
+    font-family: 'Comfortaa', 'Arial', sans-serif;
+    margin-bottom: 0;
+    margin-block-start: 5px;
+}
+
 .r2 img {
     border-radius: 50%;
     height: 150px;
@@ -42,7 +48,6 @@
 
 .links{
     text-decoration: none;
-    /* font-family: 'Quicksand', sans-serif; */
     font-family: 'Comfortaa', cursive;
     color:#000;
     font-size: larger;
@@ -50,7 +55,6 @@
 }
 
 .links:hover{
-    /* color:rgb(121, 189, 252); */
     color:rgb(121, 189, 252);
     text-decoration: underline;
 }

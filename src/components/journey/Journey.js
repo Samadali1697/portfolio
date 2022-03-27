@@ -4,10 +4,11 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import {faSchool, faBriefcase} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { portfolioData } from '../../data/content';
 
 export default function Journey() {
     return (
-        <div className={classes.box} id="education">
+        <div className={classes.box} id="journey">
             <ScrollAnimation offset={0} animateIn="animate__fadeInLeftBig" duration={2} animateOnce={true} initiallyVisible={true}>
                 <span className={classes.head}>MY JOURNEY</span>
                 <section className={classes.container}>
@@ -21,10 +22,11 @@ export default function Journey() {
                                                 <FontAwesomeIcon icon={faBriefcase}/>
                                             </div>
                                             <div className={classes.label}>
-                                                <h2>Software Engineer II <span>September, 2020 - Present</span></h2>
-                                                <h4>Wayfair</h4>
-                                                <p>Fulfillment Network,<br/>
-                                                    - decoupled processes into microservices keeping the lights ON!</p>
+                                                <h2>{portfolioData.journey.jobNow.title} <span>{portfolioData.journey.jobNow.when}</span></h2>
+                                                <h4>{portfolioData.journey.jobNow.where}</h4>
+                                                    {portfolioData.journey.jobNow.what.map((activities) => {
+                                                        return (<p>{activities}</p>);
+                                                    })}
                                             </div>
                                         </article>
                                     </ScrollAnimation>
@@ -34,10 +36,11 @@ export default function Journey() {
                                                 <FontAwesomeIcon icon={faBriefcase}/>
                                             </div>
                                             <div className={classes.label}>
-                                                <h2>Software Engineer <span>May, 2019 - August, 2020</span></h2>
-                                                <h4>Wayfair</h4>
-                                                <p>Fulfillment Network,<br/>
-                                                    - Contributed in revamping multiple process, designed, estimated and lead multiple initiatives!</p>
+                                                <h2>{portfolioData.journey.jobOldLast.title} <span>{portfolioData.journey.jobOldLast.when}</span></h2>
+                                                <h4>{portfolioData.journey.jobOldLast.where}</h4>
+                                                    {portfolioData.journey.jobOldLast.what.map((activities) => {
+                                                        return (<p>{activities}</p>);
+                                                    })}
                                             </div>
                                         </article>
                                     </ScrollAnimation>
@@ -47,10 +50,11 @@ export default function Journey() {
                                                 <FontAwesomeIcon icon={faSchool}/>
                                             </div>
                                             <div className={classes.label}>
-                                                <h2 >BS in Software Engineering <span>2014 - 2018</span></h2>
-                                                <h4>Institute of Management Sciences, Peshawar Pakistan</h4>
-                                                <p>- Led and contributed to the team while competing at National Hult Prize 2018<br/>
-                                                    - Second runner up in RoboNavigation at IEEE Week 2016 – Fast Lahore</p>
+                                                <h2 >{portfolioData.journey.education.title} <span>{portfolioData.journey.education.when}</span></h2>
+                                                <h4>{portfolioData.journey.education.where}</h4>
+                                                    {portfolioData.journey.education.what.map((activities) => {
+                                                        return (<p>{activities}</p>);
+                                                    })}
                                             </div>
                                             <div className={classes.timeline_entry_inner}><div className={classes.timeline_icon_3 || classes.color_none}></div></div>
                                         </article>
