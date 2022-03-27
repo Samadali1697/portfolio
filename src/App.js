@@ -15,8 +15,8 @@ const App = () => {
                 </div>
                 <div className="homeBar">
                     <Routes>
-                        <Route exact path="/" element={<Home/>}/>
-                        <Route path="*" element={<NotFound/>}/>
+                        <Route exact path="/" element={<Home />}/>
+                        <Route path="*" element={<NotFound />}/>
                     </Routes>
                 </div>
             </Router>
