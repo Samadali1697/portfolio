@@ -9,17 +9,17 @@ import NavigationBar from "./components/navigationbar/NavigationBar";
 const App = () => {
     return (
         <div className="homeBase">
-            <div className="navBar">
-                <NavigationBar />
-            </div>
-            <div className="homeBar">
-                <Router>
+            <Router>
+                <div className="navBar">
+                    <NavigationBar />
+                </div>
+                <div className="homeBar">
                     <Routes>
                         <Route exact path="/" element={<Home/>}/>
                         <Route path="*" element={<NotFound/>}/>
                     </Routes>
-                </Router>
-            </div>
+                </div>
+            </Router>
         </div>
     );
 }

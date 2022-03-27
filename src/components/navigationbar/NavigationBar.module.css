@@ -24,6 +24,10 @@
     text-align: center;
 }
 
+.r3Items{
+    margin-bottom: 15px;
+}
+
 .socialCard{
     text-align: center;
 }
@@ -34,6 +38,21 @@
     text-decoration: none;
     color:red;
     font-size: 23px;
+}
+
+.links{
+    text-decoration: none;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+    color:#000;
+    font-size: larger;
+    line-height: 1.4rem;
+}
+
+.links:hover{
+    /* color:rgb(121, 189, 252); */
+    color:rgb(121, 189, 252);
+    text-decoration: underline;
 }
 
 @media (max-width:768px){

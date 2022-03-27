@@ -2,6 +2,7 @@ import React from "react";
 import { Text } from "react-native";
 import styles from './NavigationBar.module.css';
 import profileImage from '../images/sam.jpeg'
+import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
@@ -17,6 +18,12 @@ export default function NavigationBar() {
             <div className={styles.r2}>
                 <img src={profileImage} alt={"Samad Ali Shah"} />
                 <p className={styles.gmail}><FontAwesomeIcon icon={faEnvelope}/> samadali1697@gmail.com</p>
+            </div>
+
+            <div className={styles.socialCard}>
+                <div className={styles.r3Items}><Link smooth to="/#about" className={styles.links}>About</Link></div>
+                <div className={styles.r3Items}><Link smooth to="/#education" className={styles.links}>Education</Link></div>
+                <div className={styles.r3Items}><Link smooth to="/#interest" className={styles.links}>Interest</Link></div>
             </div>
 
             <div className={styles.r4}>
