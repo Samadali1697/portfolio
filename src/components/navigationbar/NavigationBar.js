@@ -1,7 +1,7 @@
 import React from "react";
 import { Text } from "react-native";
 import styles from './NavigationBar.module.css';
-import profileImage from '../images/sam.jpeg'
+import profileImage from '../../data/images/sam.jpeg'
 import { HashLink as Link } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
