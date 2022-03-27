@@ -18,3 +18,31 @@
   vertical-align: middle;
   overflow-y: scroll;
 }
+
+@media (max-width:992px){
+  .navBar {
+    width: 100%;
+    vertical-align: middle;
+    background-color: #efefec;
+  }
+
+  .homeBar {
+    width: 100%;
+    background-color: #ffffff;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width:769px){
+  .navBar {
+    width: 100%;
+    vertical-align: middle;
+    background-color: #efefec;
+  }
+
+  .homeBar {
+    width: 100%;
+    background-color: #ffffff;
+    vertical-align: middle;
+  }
+}
