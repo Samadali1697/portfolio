@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400&display=swap');
+
+.r1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.r2, .r3, .r4 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.r1 h1 {
+    font-family: 'Aclonica', 'Arial', sans-serif;
+}
+
+.r2 img {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    text-align: center;
+}
+
+.r3Items{
+    margin-bottom: 15px;
+}
+
+.socialCard{
+    text-align: center;
+}
+.socialCardIcons{
+    margin-bottom: 15px;
+}
+.faLg{
+    text-decoration: none;
+    color:red;
+    font-size: 23px;
+}
+
+.links{
+    text-decoration: none;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+    color:#000;
+    font-size: larger;
+    line-height: 1.4rem;
+}
+
+.links:hover{
+    /* color:rgb(121, 189, 252); */
+    color:rgb(121, 189, 252);
+    text-decoration: underline;
+}
+
+@media (max-width:768px){
+    .gmail{
+        font-size:16px;
+        font-weight: bold;
+        color:#000;
+    }
+}

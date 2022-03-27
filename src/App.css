@@ -1,0 +1,20 @@
+.homeBase {
+  height: 100vh;
+}
+
+.navBar {
+  width: 20%;
+  height: 100vh;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #efefec;
+}
+
+.homeBar {
+  width: 79.5%;
+  height: 100vh;
+  display: inline-block;
+  background-color: #ffffff;
+  vertical-align: middle;
+  overflow-y: scroll;
+}
