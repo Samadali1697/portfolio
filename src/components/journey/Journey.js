@@ -4,9 +4,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import {faSchool, faBriefcase} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { portfolioData } from '../../data/content';
 
-export default function Journey() {
+const Journey = (props) => {
     return (
         <div className={classes.box} id="journey">
             <ScrollAnimation offset={0} animateIn="animate__fadeInLeftBig" duration={2} animateOnce={true} initiallyVisible={true}>
@@ -22,10 +21,10 @@ export default function Journey() {
                                                 <FontAwesomeIcon icon={faBriefcase}/>
                                             </div>
                                             <div className={classes.label}>
-                                                <h2>{portfolioData.journey.jobNow.title} <span>{portfolioData.journey.jobNow.when}</span></h2>
-                                                <h4>{portfolioData.journey.jobNow.where}</h4>
-                                                    {portfolioData.journey.jobNow.what.map((activities) => {
-                                                        return (<p>{activities}</p>);
+                                                <h2>{props.journey.jobNow.title} <span>{props.journey.jobNow.when}</span></h2>
+                                                <h4>{props.journey.jobNow.where}</h4>
+                                                    {props.journey.jobNow.what.map((activities, index) => {
+                                                        return (<p key={index}>{activities}</p>);
                                                     })}
                                             </div>
                                         </article>
@@ -36,10 +35,10 @@ export default function Journey() {
                                                 <FontAwesomeIcon icon={faBriefcase}/>
                                             </div>
                                             <div className={classes.label}>
-                                                <h2>{portfolioData.journey.jobOldLast.title} <span>{portfolioData.journey.jobOldLast.when}</span></h2>
-                                                <h4>{portfolioData.journey.jobOldLast.where}</h4>
-                                                    {portfolioData.journey.jobOldLast.what.map((activities) => {
-                                                        return (<p>{activities}</p>);
+                                                <h2>{props.journey.jobOldLast.title} <span>{props.journey.jobOldLast.when}</span></h2>
+                                                <h4>{props.journey.jobOldLast.where}</h4>
+                                                    {props.journey.jobOldLast.what.map((activities, index) => {
+                                                        return (<p key={index}>{activities}</p>);
                                                     })}
                                             </div>
                                         </article>
@@ -50,10 +49,10 @@ export default function Journey() {
                                                 <FontAwesomeIcon icon={faSchool}/>
                                             </div>
                                             <div className={classes.label}>
-                                                <h2 >{portfolioData.journey.education.title} <span>{portfolioData.journey.education.when}</span></h2>
-                                                <h4>{portfolioData.journey.education.where}</h4>
-                                                    {portfolioData.journey.education.what.map((activities) => {
-                                                        return (<p>{activities}</p>);
+                                                <h2 >{props.journey.education.title} <span>{props.journey.education.when}</span></h2>
+                                                <h4>{props.journey.education.where}</h4>
+                                                    {props.journey.education.what.map((activities, index) => {
+                                                        return (<p key={index}>{activities}</p>);
                                                     })}
                                             </div>
                                             <div className={classes.timeline_entry_inner}><div className={classes.timeline_icon_3 || classes.color_none}></div></div>
@@ -68,3 +67,5 @@ export default function Journey() {
         </div>
     );
 }
+
+export default Journey;
