@@ -19,7 +19,7 @@ npm intall && npm start
 ## Customize for your portfolio
 If you want to add your details into this portfolio. It is as easy as putting information in text file.
 
-You can find the `content.js` file with all the details under `data` directory. Update it with your information and deploy the changes to your website :)  
+You can find the `Content.js` file with all the details under `data` directory. Update it with your information and deploy the changes to your website :)  
 
 ## Contribution
 This code was originally written by [Sachin Mittal](https://github.com/mittalsam98), thank you for the great portfolio template!
