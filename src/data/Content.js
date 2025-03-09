@@ -31,7 +31,7 @@ export const portfolioData = {
         "otherInterests": [
             "- I love traveling and exploring new places",
             "- I have done Sky diving in Berlin 8)",
-            "- Ich learne Deutsch, currently at B1.1 module"
+            "- Ich learne Deutsch, currently at B1"
         ],
     },
     "journey": {
@@ -41,7 +41,9 @@ export const portfolioData = {
             "where": "Wayfair",
             "what": [
                 "Fulfillment Network,",
-                "- Decoupling processes into microservices keeping the lights ON!"
+                "- Led application decoupling efforts of multiple operations in core inventory system of Wayfair's warehousing reducing data corruption to 0%",
+                "- Led the data decoupling of warehouse’s locations system, reducing fetch latency to ~5ms",
+                "- Consistently recognized as the top code contributor throughout tenure"
             ]
         },
         "jobOldLast": {
