@@ -8,8 +8,8 @@ export const portfolioData = {
             "# software_engineering"
         ],
         "socialLinks": {
-            "github": "https://github.com/Samadali1697",
-            "linkedIn": "https://www.linkedin.com/in/samadali1697",
+            "github": "https://github.com/samadalishah",
+            "linkedIn": "https://www.linkedin.com/in/shahsamadali",
             "twitter": "https://twitter.com/shahsamadali",
             "instagram": "https://www.instagram.com/syed.samad.ali",
             "email": "samadali1697@gmail.com",
